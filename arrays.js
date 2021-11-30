@@ -10,14 +10,29 @@
 // let media = (notas[0] + notas[1] + notas[2] + notas[3])/ notas.length;
 // console.log(media)
 
-// Adicionando notas ao array
+/* 
+    ADICIONANDO ELEMENTO NO ARRAY 
+*/
 
-const notas = [10,6,8];
+// const notas = [10,6,8];
 
-// método adiciona valor ao array
-notas.push(7)
+// // método adiciona valor em indici do array
+// notas.push(7)
 
+// let media = (notas[0] + notas[1] + notas[2] + notas[3])/ notas.length;
 
-let media = (notas[0] + notas[1] + notas[2] + notas[3])/ notas.length;
+// console.log(media);
 
-console.log(media);
+/* 
+    EXCLUINDO ELEMENTOS DO ARRAY 
+*/
+
+// const notas = [10,7,8,5,10];
+
+//  Esta função não aceita parametros, ela sempre retira o ultimo elemento do array
+// notas.pop();
+// console.log(notas);
+
+// let media = (notas[0] + notas[1] + notas[2] + notas[3])/ notas.length;
+
+// console.log(`A média é : ${media}`);
