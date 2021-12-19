@@ -1,20 +1,14 @@
 class Arvore
 {
-	constructor(nodo = [])
+	constructor(nodo)
 	{
 		this.nodo = nodo;
 	}
 
-	incrementa(valor)
-	{
-		this.valor = valor;
-	}
 
 	maiorValor(array)
 	{
 		return this.valorMaximo =  Math.max.apply(Math,array);
-
-
 	}
 	
 	menorValor(array)
@@ -37,10 +31,11 @@ class Arvore
 		let novoIndiceMaiorValor = 0;
 		let novoIndiceMenorValor = 0;
 		
+		
+		  	
+		
+			
 
-		if(this.valor > maiorValorArvore){
-			this.nodo.push(this.valor);
-		}
 	}
 
 	exibirArvore()
@@ -49,10 +44,8 @@ class Arvore
 	}
 }
 
-const teste = new Arvore();
-teste.incrementa(50);
-teste.incrementa(55);
-teste.incrementa(45);
+const teste = new Arvore([25,44,78,99,54,2,1,3,5,7]);
+
 teste.distribuir();
 teste.exibirArvore();
 
